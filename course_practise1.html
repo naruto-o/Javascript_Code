@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(86, 73, 73);
+               margin-top: 60px;
+            margin-left: 150px; 
+        }
+        #purchase-button{
+            border: 4px solid black;
+            border-radius: 35px;
+            color: antiquewhite;
+            background-color: rebeccapurple;
+            width: 200px;
+            height: 60px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #purchase-button:hover{
+            background-color: green;
+            color: black;
+            border: 5px solid greenyellow;
+        }
+        #nik{
+            font-size: x-large;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #error{
+            color: red;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <img id="images1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtgh2xwYOmwMkQ3toMqG20Vcs4AS3ZM0dytQ&usqp=CAU" alt="">
+    <p id="nik">Nike Shoes</p>
+    <button id="purchase-button" onclick="rendermessage()">Purchase - $ 149--/</button>
+    <p id="error"></p>
+    <script src="course_practise1.js"></script>
+</body>
+</html>
