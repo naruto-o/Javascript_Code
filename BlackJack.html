@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            body{
+                /* margin-left: 580px;
+                margin-top:150px ; */
+                text-align: center;
+                 font-size: xx-large;
+                /* background-color:#016f32; */
+                background-image: url(https://t4.ftcdn.net/jpg/00/93/36/49/360_F_93364974_eoos8QGsa9CzTa5hGRRL6EutXMSKgdOA.jpg);
+                background-size: cover;
+                /* background-position: center; */
+                background-repeat: no-repeat;
+                font-weight: bolder;
+            }
+            h1{
+                color: goldenrod;
+
+                font-size: 80px;
+                /* margin-left: 580px;
+                margin-top:150px ; */
+                font-weight: bolder;
+            }
+            #message-el{
+                color: bisque;
+                font-style: italic;
+            }
+            #sum-el{
+                margin-left: 9px;
+                color: white;
+            }
+            #card-el{
+                margin-left: 9px;
+                color: white;
+            }
+            #start-game{
+                color: #016f32;
+                background-color: goldenrod;
+                width: 200px;
+                height: 40px;
+                font-size: large;
+                border: 1px solid goldenrod;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-weight: bold;
+                padding-left: 2px;
+                padding-right: 2px;
+                border-radius: 3px;
+            }
+            #new-card{
+                margin-top: 10px;
+                color: #016f32;
+                background-color: goldenrod;
+                width: 200px;
+                height: 40px;
+                font-size: large;
+                border: 1px solid goldenrod;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-weight: bold;
+                padding-left: 2px;
+                padding-right: 2px;
+                border-radius: 3px;
+            }
+    </style>
+</head>
+<body>
+    <h1>BlackJack</h1>
+    <p id="message-el">Want to play a round?</p>
+    <p id="card-el">Cards: </p>
+    <p id="sum-el">Sum: </p>
+    <button id="start-game" onclick="startGame()">START GAME</button>
+    <br>
+    <button id="new-card" onclick="newCard()">NEW CARD</button>
+    <p id="player-el"></p>
+    <script src="BlackJack.js"></script>
+</body>
+</html>
